@@ -7,3 +7,6 @@
 temp.ipynb
 temp.json
 temp.py
+
+# Frontend build output
+frontend/dist/
