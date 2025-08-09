@@ -1,0 +1,62 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "review": "The phone works ..not sure if its unlocked to work with any carrier , but its unlocked i currently have metro pcs and my sim card did not work in phone..i did not get headphones with the phone but overall the phone is in mint condition",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "I purchased this phone for my son on July 7 and on August 9 the phone conveniently died. It wouldn't charge at all and sits here as a tribute to my stupidity for listening to my teenage son who told me about purchasing a refurbished phone-- I know betterTHIS IS A SCAM! Do not buy this phone!",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "It works with my T-Mobile SIM card and functions properly I love it",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "Not GSM!!",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "Doesn't have enough space. I only have about 30 pictures and it won't let me take anymore. Also have to delete texts constantly. I haven't downloaded any apps.",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "old android died, found this as a great deal and perfect condition when I received it. Hooked up with my Straight talk service with no problem",
+      "category": "Device Compatibility & Functionality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "this is a 3G not a 4G as we thought and we cannot get on the internet out side of wifi very disappointed",
+      "category": "Device Compatibility & Functionality Issues"
+    }
+  ],
+  "signature": {
+    "instructions": "Classify a review into one of the predefined categories.",
+    "fields": [
+      {
+        "prefix": "Review:",
+        "description": "The review text to classify"
+      },
+      {
+        "prefix": "Category:",
+        "description": "The category of the review. One of ['Product Quality Issues', 'Accessory & Package Issues', 'Device Compatibility & Functionality Issues', 'Service & Delivery Experience', 'Device Compatibility & Functionality Issues']"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}

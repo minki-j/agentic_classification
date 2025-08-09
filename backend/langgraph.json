@@ -1,0 +1,11 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "create_initial_nodes": "agents/create_initial_nodes/create_initial_nodes_graph.py:g",
+        "classify_items": "agents/classify_items/classify_items_graph.py:g"
+    },
+    "env": ".env",
+    "python_version": "3.11"
+}

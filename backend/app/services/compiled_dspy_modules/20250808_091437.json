@@ -1,0 +1,77 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "review": "great phonegood price",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "very good",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Great product!",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "sometimes the sound on videos , music & keyboard clicks are just loud static & it won't turn down , not worth more than $100 IF THAT ...",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Good",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Look's like a new brand iPhone and works perfectly. Just what i was looking for.",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Looks like a new phone. Works well.",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Working good..",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "Works real good",
+      "category": "Usage Experience and Performance"
+    },
+    {
+      "augmented": true,
+      "review": "This is so much better than my old 4s. It upgraded seamlessly to os9 and works perfectly.",
+      "category": "Usage Experience and Performance"
+    }
+  ],
+  "signature": {
+    "instructions": "Classify a review into one of the predefined categories.",
+    "fields": [
+      {
+        "prefix": "Review:",
+        "description": "The review text to classify"
+      },
+      {
+        "prefix": "Category:",
+        "description": "The category of the review. One of ['Device Functional Issues', 'Network and Connectivity Issues', 'Battery and Power Issues', 'Physical Condition and Accessories', 'Usage Experience and Performance', 'Usage Experience and Performance']"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}

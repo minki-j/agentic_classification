@@ -1,0 +1,42 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "review": "Do not buy this phone. it is used, no head phone, chip charger not original, no iPhone box",
+      "category": "Product Quality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "I purchased this phone for my son on July 7 and on August 9 the phone conveniently died. It wouldn't charge at all and sits here as a tribute to my stupidity for listening to my teenage son who told me about purchasing a refurbished phone-- I know betterTHIS IS A SCAM! Do not buy this phone!",
+      "category": "Product Quality Issues"
+    },
+    {
+      "augmented": true,
+      "review": "Volume no good cheap",
+      "category": "Product Quality Issues"
+    }
+  ],
+  "signature": {
+    "instructions": "Classify a review into one of the predefined categories.",
+    "fields": [
+      {
+        "prefix": "Review:",
+        "description": "The review text to classify"
+      },
+      {
+        "prefix": "Category:",
+        "description": "The category of the review. One of ['Product Quality Issues', 'Accessory & Package Issues', 'Device Compatibility & Functionality Issues', 'Service & Delivery Experience', 'Product Quality Issues']"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}
